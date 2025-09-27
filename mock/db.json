@@ -1,0 +1,154 @@
+{
+  "products": [
+    {
+      "productId": "COLGATE",
+      "parentProductId": "TOOTHPASTE_STD",
+      "name": "Colgate",
+      "availableFrom": "2024-06-01"
+    },
+    {
+      "productId": "TOOTHPASTE_STD",
+      "parentProductId": "SANITATORY_PRODUCTS",
+      "name": "Standard toothpaste",
+      "availableFrom": "2024-05-20"
+    },
+    {
+      "productId": "SANITATORY_PRODUCTS",
+      "parentProductId": null,
+      "name": "Sanitary products",
+      "availableFrom": "2024-05-10"
+    },
+    {
+      "productId": "KISSAN_ORANGE_MME_01",
+      "parentProductId": "MARMALADE_GRADE1",
+      "name": "Kissan Orange Fruity Fun",
+      "availableFrom": "2024-05-15"
+    },
+    {
+      "productId": "MARMALADE_GRADE1",
+      "parentProductId": "PRESERVED_FOOD",
+      "name": "The Marmalade company",
+      "availableFrom": "2024-05-12"
+    },
+    {
+      "productId": "HIMALAYA_ORALCARE",
+      "parentProductId": "TOOTHPASTE_STD",
+      "name": "Himalaya Herbal Fresh",
+      "availableFrom": "2024-05-27"
+    },
+    {
+      "productId": "PEPSODENT_SMILE_PLUS",
+      "parentProductId": "TOOTHPASTE_STD",
+      "name": "Pepsodent Smile+",
+      "availableFrom": "2024-05-20"
+    },
+    {
+      "productId": "COLGATE_CHERRY_GEL",
+      "parentProductId": "COLGATE",
+      "name": "Colgate Cherry Gel",
+      "availableFrom": "2024-05-23"
+    },
+    {
+      "productId": "COLGATE_FRESH_MINT",
+      "parentProductId": "COLGATE",
+      "name": "Colgate Fresh Mint",
+      "availableFrom": "2024-05-18"
+    },
+    {
+      "productId": "SENSODYNE_GENTLE",
+      "parentProductId": "TOOTHPASTE_STD",
+      "name": "Sensodyne Gentle",
+      "availableFrom": "2024-05-14"
+    },
+    {
+      "productId": "CLOSEUP_ICY_BLAST",
+      "parentProductId": "TOOTHPASTE_STD",
+      "name": "CloseUp Icy Blast",
+      "availableFrom": "2024-05-10"
+    },
+    {
+      "productId": "DABUR_RED_CLASSIC",
+      "parentProductId": "TOOTHPASTE_STD",
+      "name": "Dabur Red Classic",
+      "availableFrom": "2024-05-07"
+    },
+    {
+      "productId": "PATANJALI_DANT_KANTI",
+      "parentProductId": "TOOTHPASTE_STD",
+      "name": "Patanjali Dant Kanti",
+      "availableFrom": "2024-05-04"
+    },
+    {
+      "productId": "ORALB_KIDS_BUBBLE",
+      "parentProductId": "COLGATE",
+      "name": "Oral-B Kids Bubble",
+      "availableFrom": "2024-05-02"
+    },
+    {
+      "productId": "ORALB_PROCARE",
+      "parentProductId": "COLGATE",
+      "name": "Oral-B ProCare",
+      "availableFrom": "2024-04-30"
+    },
+    {
+      "productId": "MARMALADE_CITRUS_BURST",
+      "parentProductId": "MARMALADE_GRADE1",
+      "name": "Citrus Burst Marmalade",
+      "availableFrom": "2024-05-29"
+    },
+    {
+      "productId": "MARMALADE_BERRY_SWIRL",
+      "parentProductId": "MARMALADE_GRADE1",
+      "name": "Berry Swirl Marmalade",
+      "availableFrom": "2024-05-25"
+    },
+    {
+      "productId": "MARMALADE_SPICED_ORANGE",
+      "parentProductId": "MARMALADE_GRADE1",
+      "name": "Spiced Orange Marmalade",
+      "availableFrom": "2024-05-21"
+    },
+    {
+      "productId": "MARMALADE_SUMMER_MIX",
+      "parentProductId": "MARMALADE_GRADE1",
+      "name": "Summer Mix Marmalade",
+      "availableFrom": "2024-05-17"
+    },
+    {
+      "productId": "PRESERVED_FOOD",
+      "parentProductId": null,
+      "name": "Preserved foods",
+      "availableFrom": "2024-04-22"
+    },
+    {
+      "productId": "PRESERVED_GOURMET",
+      "parentProductId": "PRESERVED_FOOD",
+      "name": "Gourmet Preserves",
+      "availableFrom": "2024-05-05"
+    },
+    {
+      "productId": "PRESERVED_ORGANIC",
+      "parentProductId": "PRESERVED_FOOD",
+      "name": "Organic Preserves",
+      "availableFrom": "2024-04-27"
+    },
+    {
+      "productId": "SANITARY_STARTER_PACK",
+      "parentProductId": "SANITATORY_PRODUCTS",
+      "name": "Sanitary Starter Pack",
+      "availableFrom": "2024-04-17"
+    },
+    {
+      "productId": "SANITARY_TRAVEL_SET",
+      "parentProductId": "SANITATORY_PRODUCTS",
+      "name": "Sanitary Travel Set",
+      "availableFrom": "2024-04-12"
+    },
+    {
+      "productId": "SANITARY_PREMIUM_CARE",
+      "parentProductId": "SANITATORY_PRODUCTS",
+      "name": "Premium Care Pack",
+      "availableFrom": "2024-04-07"
+    }
+  ]
+}
