@@ -1,0 +1,95 @@
+.product-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  .detail-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.6rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid rgba(13, 71, 161, 0.12);
+
+    h1 {
+      margin: 0;
+      font-size: var(--font-size-2xl);
+      color: var(--color-primary-dark);
+    }
+
+    .detail-meta {
+      margin: 0.4rem 0 0;
+      display: flex;
+      gap: 1.6rem;
+      font-size: var(--font-size-sm);
+      color: rgba(27, 45, 79, 0.75);
+
+      .detail-price {
+        font-size: var(--font-size-lg);
+        font-weight: 600;
+        color: var(--color-primary);
+      }
+    }
+  }
+
+  .detail-body {
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(200px, 1fr);
+    gap: 2.4rem;
+
+    .detail-overview {
+      padding: 2rem;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 16px 40px rgba(15, 45, 94, 0.08);
+      font-size: var(--font-size-md-plus);
+
+      & > :is(h2, h3, p, ul, li) {
+        margin: 0 0 1.2rem;
+      }
+
+      ul {
+        list-style: disc;
+        padding-left: 1.6rem;
+      }
+    }
+
+    .detail-sidebar {
+      padding: 1.6rem;
+      background: rgba(13, 71, 161, 0.05);
+      border-radius: 12px;
+
+      h2 {
+        margin: 0 0 1.2rem;
+        font-size: var(--font-size-lg);
+        color: var(--color-primary-dark);
+      }
+
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        gap: 0.8rem;
+        font-size: var(--font-size-md);
+
+        li {
+          padding: 0.8rem 1rem;
+          background: #fff;
+          border-radius: 999px;
+          box-shadow: inset 0 0 0 1px rgba(13, 71, 161, 0.16);
+          color: var(--color-primary-dark);
+        }
+      }
+    }
+  }
+
+  .detail-banner {
+    padding: 2.4rem;
+    background: rgba(13, 71, 161, 0.08);
+    border-radius: 12px;
+    display: grid;
+    gap: 0.8rem;
+    font-size: var(--font-size-md);
+  }
+}

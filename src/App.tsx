@@ -1,6 +1,7 @@
 import { Header, Sidebar } from './components'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import ProductView from './pages/ProductView'
+import ProductDetail from './pages/ProductDetail'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <main className="app-main">
           <Routes>
             <Route path="/products" element={<ProductView />} />
+            <Route path="/products/:productId" element={<ProductDetail />} />
             <Route path="*" element={<Navigate to="/products" replace />} />
           </Routes>
         </main>
