@@ -425,5 +425,137 @@
       ],
       "lastUpdated": "2024-10-23"
     }
+  ],
+  "reviews": [
+    {
+      "productId": "COLGATE",
+      "reviewId": "REV-COLGATE-001",
+      "reviewInfo": {
+        "name": "Priya Shah",
+        "email": "priya.shah@example.com",
+        "date": "2024-12-27"
+      },
+      "reviewContent": "### Fresh breath all day\\n\\n- Noticeable difference in two weeks.\\n- Mild flavor that my family actually likes.\\n- Pairing with the mouthwash keeps morning breath away."
+    },
+    {
+      "productId": "COLGATE",
+      "reviewId": "REV-COLGATE-002",
+      "reviewInfo": {
+        "name": "Leonard Pace",
+        "email": "leonard.pace@example.com",
+        "date": "2024-12-18"
+      },
+      "reviewContent": "Tried switching to a charcoal paste but came back to this within a week. The gel texture is gentler on my gums and the whitening claim is actually true this time."
+    },
+    {
+      "productId": "COLGATE_CHERRY_GEL",
+      "reviewId": "REV-CHERRY-001",
+      "reviewInfo": {
+        "name": "Sahana Iyer",
+        "email": "sahana.iyer@example.com",
+        "date": "2024-12-05"
+      },
+      "reviewContent": "### Big hit with kids\\n\\n- Sweet enough without feeling sugary.\\n- The pump bottle makes the evening routine faster.\\n- Wish the cap was a little sturdier, otherwise five stars."
+    },
+    {
+      "productId": "HIMALAYA_ORALCARE",
+      "reviewId": "REV-HIMALAYA-001",
+      "reviewInfo": {
+        "name": "Malik Farooqi",
+        "email": "malik.f@example.com",
+        "date": "2024-12-20"
+      },
+      "reviewContent": "Been hunting for a herbal option that still foams decently. This one nails the balance. Mild clove aftertaste, but nothing overpowering."
+    },
+    {
+      "productId": "PEPSODENT_SMILE_PLUS",
+      "reviewId": "REV-PEPSO-001",
+      "reviewInfo": {
+        "name": "Harriet Collins",
+        "email": "harriet.c@example.com",
+        "date": "2024-12-02"
+      },
+      "reviewContent": "### Dentist recommended\\n\\nMy hygienist nudged me to try this before the holidays. Surface stains faded in about ten days, and the cooling effect lasts a full hour."
+    },
+    {
+      "productId": "ORALB_PROCARE",
+      "reviewId": "REV-PROCARE-001",
+      "reviewInfo": {
+        "name": "Eugene Michaels",
+        "email": "eugene.m@example.com",
+        "date": "2024-11-28"
+      },
+      "reviewContent": "Swapped over from another brand because of sensitivity. This is pricey but the included enamel shield is worth the extra dollars."
+    },
+    {
+      "productId": "MARMALADE_GRADE1",
+      "reviewId": "REV-MARM-ROOT-001",
+      "reviewInfo": {
+        "name": "Amelia Bright",
+        "email": "amelia.bright@example.com",
+        "date": "2024-11-30"
+      },
+      "reviewContent": "### Classic breakfast pick\\n\\nWe serve this at our brunch pop-up. Guests notice the citrus peel almost immediately. Bulk jars would be amazing."
+    },
+    {
+      "productId": "MARMALADE_CITRUS_BURST",
+      "reviewId": "REV-MARM-001",
+      "reviewInfo": {
+        "name": "Jordan Keller",
+        "email": "jordan.keller@example.com",
+        "date": "2024-12-08"
+      },
+      "reviewContent": "Bright, tangy, and not overly sweet. I mix a spoonful into yogurt and it tastes like something you'd get at a boutique cafe."
+    },
+    {
+      "productId": "MARMALADE_SPICED_ORANGE",
+      "reviewId": "REV-MARM-002",
+      "reviewInfo": {
+        "name": "Luisa Romero",
+        "email": "luisa.romero@example.com",
+        "date": "2024-11-25"
+      },
+      "reviewContent": "### Cozy evening toast\\n\\nThe cinnamon finish makes this a winter staple in our house. We warm it slightly before spreading - absolute comfort food."
+    },
+    {
+      "productId": "PRESERVED_GOURMET",
+      "reviewId": "REV-GOURMET-001",
+      "reviewInfo": {
+        "name": "Allan Dsouza",
+        "email": "allan.dsouza@example.com",
+        "date": "2024-11-18"
+      },
+      "reviewContent": "Took a jar to a client dinner and it disappeared in minutes. The texture is perfect for cheese boards. Shipping was a bit slow to Toronto though."
+    },
+    {
+      "productId": "SANITARY_STARTER_PACK",
+      "reviewId": "REV-SAN-START-001",
+      "reviewInfo": {
+        "name": "Nia Thompson",
+        "email": "nia.t@example.com",
+        "date": "2024-12-12"
+      },
+      "reviewContent": "### Thoughtful assortment\\n\\nBought this for my college-going niece. Having multiple absorbency levels in one box is surprisingly convenient."
+    },
+    {
+      "productId": "SANITARY_TRAVEL_SET",
+      "reviewId": "REV-SAN-TRAVEL-001",
+      "reviewInfo": {
+        "name": "Chloe Martin",
+        "email": "chloe.martin@example.com",
+        "date": "2024-12-01"
+      },
+      "reviewContent": "A compact kit with just enough supplies for a weekend trip. The wipes stayed moist even after a week in my backpack."
+    },
+    {
+      "productId": "KISSAN_ORANGE_MME_01",
+      "reviewId": "REV-KISSAN-001",
+      "reviewInfo": {
+        "name": "Sridhar Menon",
+        "email": "sridhar.m@example.com",
+        "date": "2024-12-04"
+      },
+      "reviewContent": "Picked this up on a whim for our holiday hamper. The fruit chunks feel premium and the kids scoop it straight from the jar."
+    }
   ]
 }
