@@ -3,15 +3,15 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { fetchProductDetail, type ProductDetail } from '../api/products'
 import { formatCurrency } from '../utils'
-import { Button, BackButton, Markdown } from '../components'
+import { Button, BackButton, Markdown, StateBanner } from '../components'
 import './ProductDetail.css'
 
 function NotFound() {
   return (
-    <div className="detail-banner">
+    <StateBanner variant="warning">
       <h2>Product not found</h2>
       <p>We couldn't find details for this product. It may have been removed or isn't available yet.</p>
-    </div>
+    </StateBanner>
   )
 }
 
@@ -34,19 +34,15 @@ function ProductDetail() {
   const title = useMemo(() => data?.name ?? productId ?? 'Product', [data?.name, productId])
 
   if (isLoading) {
-    return (
-      <div className="detail-banner">
-        <p>Loading product detail…</p>
-      </div>
-    )
+    return <StateBanner>Loading product detail…</StateBanner>
   }
 
   if (isError) {
     return (
-      <div className="detail-banner">
+      <StateBanner variant="error">
         <h2>Unable to load product detail</h2>
         <p>{String(error)}</p>
-      </div>
+      </StateBanner>
     )
   }
 

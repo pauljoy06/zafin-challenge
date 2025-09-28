@@ -1,0 +1,24 @@
+.state-banner {
+  display: grid;
+  gap: 0.8rem;
+
+  padding: 2rem;
+  border-radius: 12px;
+
+  font-size: var(--font-size-md-plus);
+
+  &.state-banner-info {
+    background: rgba(13, 71, 161, 0.08);
+    color: var(--color-primary-dark);
+  }
+
+  &.state-banner-warning {
+    background: rgba(255, 193, 7, 0.12);
+    color: #8a5a00;
+  }
+
+  &.state-banner-error {
+    background: rgba(211, 47, 47, 0.12);
+    color: #7b1f1f;
+  }
+}

@@ -1,9 +1,8 @@
 import { useQuery } from '@tanstack/react-query'
 import { useNavigate } from 'react-router-dom'
 import { fetchChildProducts, fetchRootProducts, type Product } from '../../api/products'
-import { TreeTable } from '..'
+import { TreeTable, StateBanner } from '..'
 import type { TreeTableColumn } from '../TreeTable/TreeTable'
-import './ProductTree.css'
 
 type ProductChildrenResult = {
   data?: Product[]
@@ -43,15 +42,15 @@ function ProductTree() {
   const navigate = useNavigate()
 
   if (isLoading) {
-    return <div className="state-banner">Loading products…</div>
+    return <StateBanner>Loading products…</StateBanner>
   }
 
   if (isError) {
-    return <div className="state-banner">Failed to load products: {String(error)}</div>
+    return <StateBanner variant="error">Failed to load products: {String(error)}</StateBanner>
   }
 
   if (!data || data.length === 0) {
-    return <div className="state-banner">No products available yet.</div>
+    return <StateBanner variant="warning">No products available yet.</StateBanner>
   }
 
   return (

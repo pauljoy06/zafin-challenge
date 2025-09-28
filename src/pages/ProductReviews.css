@@ -26,17 +26,6 @@
     }
   }
 
-  .reviews-banner {
-    display: grid;
-    gap: 0.8rem;
-
-    padding: 2rem;
-
-    background: rgba(13, 71, 161, 0.08);
-    border-radius: 12px;
-    font-size: var(--font-size-md);
-  }
-
   .review-list {
     display: grid;
     gap: 1.6rem;

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useLocation, useParams } from 'react-router-dom'
-import { BackButton, Markdown } from '../components'
+import { BackButton, Markdown, StateBanner } from '../components'
 import { useProductReviews } from '../hooks'
 import { formatDate } from '../utils'
 import './ProductReviews.css'
@@ -23,10 +23,10 @@ function ProductReviews() {
   if (!productId) {
     return (
       <article className="reviews-view">
-        <div className="reviews-banner">
+        <StateBanner variant="warning">
           <h2>Product not specified</h2>
           <p>Try reopening reviews from the product list.</p>
-        </div>
+        </StateBanner>
       </article>
     )
   }
@@ -34,7 +34,7 @@ function ProductReviews() {
   if (isLoading) {
     return (
       <article className="reviews-view">
-        <div className="reviews-banner">Loading reviews…</div>
+        <StateBanner>Loading reviews…</StateBanner>
       </article>
     )
   }
@@ -42,10 +42,10 @@ function ProductReviews() {
   if (isError) {
     return (
       <article className="reviews-view">
-        <div className="reviews-banner">
+        <StateBanner variant="error">
           <h2>Unable to load reviews</h2>
           <p>{String(error)}</p>
-        </div>
+        </StateBanner>
       </article>
     )
   }
@@ -63,7 +63,7 @@ function ProductReviews() {
       </header>
 
       {reviews.length === 0 ? (
-        <div className="reviews-banner">No reviews published yet.</div>
+        <StateBanner variant="warning">No reviews published yet.</StateBanner>
       ) : (
         <ul className="review-list">
           {reviews.map((review) => {
