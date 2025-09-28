@@ -1,4 +1,4 @@
-import { apiFetch } from '../utils/apiFetch'
+import { apiFetch } from '../utils'
 
 export type Product = {
   productId: string

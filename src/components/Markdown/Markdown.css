@@ -1,0 +1,45 @@
+.markdown {
+  display: block;
+  font-size: inherit;
+  color: inherit;
+
+  & > :is(h1, h2, h3, h4, h5, h6, p, ul, ol, pre) {
+    margin: 0 0 1.2rem;
+  }
+
+  & h2 {
+    font-size: var(--font-size-xl);
+    color: var(--color-primary-dark);
+  }
+
+  & h3 {
+    font-size: var(--font-size-lg);
+    color: var(--color-primary-dark);
+  }
+
+  & ul,
+  & ol {
+    padding-left: 1.6rem;
+  }
+
+  & li {
+    margin: 0.4rem 0;
+  }
+
+  & a {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+
+  & a:is(:hover, :focus-visible) {
+    text-decoration: none;
+  }
+
+  & code {
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    background: rgba(13, 71, 161, 0.08);
+    font-family: var(--font-family-mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-size: 0.9em;
+  }
+}

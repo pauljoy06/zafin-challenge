@@ -556,6 +556,86 @@
         "date": "2024-12-04"
       },
       "reviewContent": "Picked this up on a whim for our holiday hamper. The fruit chunks feel premium and the kids scoop it straight from the jar."
+    },
+    {
+      "productId": "COLGATE",
+      "reviewId": "REV-COLGATE-003",
+      "reviewInfo": {
+        "name": "Saira Dutt",
+        "email": "saira.dutt@example.com",
+        "date": "2024-11-29"
+      },
+      "reviewContent": "### Steady results every visit\n\nMy dentist always asks what paste I am using because my cleanings go faster now. The gel foams nicely without burning."
+    },
+    {
+      "productId": "TOOTHPASTE_STD",
+      "reviewId": "REV-STD-001",
+      "reviewInfo": {
+        "name": "Ben Carter",
+        "email": "ben.carter@example.com",
+        "date": "2024-12-06"
+      },
+      "reviewContent": "Solid everyday paste at a fair price. We keep one tube in every bathroom and the mint is mild enough for the kids."
+    },
+    {
+      "productId": "ORALB_PROCARE",
+      "reviewId": "REV-PROCARE-002",
+      "reviewInfo": {
+        "name": "Divya Patel",
+        "email": "divya.patel@example.com",
+        "date": "2024-11-14"
+      },
+      "reviewContent": "### Worth the upgrade\n\nTakes a couple of brushes to get used to the texture, but sensitivity flare ups are down and my hygienist noticed less plaque."
+    },
+    {
+      "productId": "MARMALADE_SUMMER_MIX",
+      "reviewId": "REV-MARM-SUMMER-001",
+      "reviewInfo": {
+        "name": "Holly Nguyen",
+        "email": "holly.nguyen@example.com",
+        "date": "2024-11-02"
+      },
+      "reviewContent": "### Sunshine in a jar\n\nPairs perfectly with soft cheese boards. The pineapple bits are a surprise and the color brightens brunch spreads."
+    },
+    {
+      "productId": "PRESERVED_ORGANIC",
+      "reviewId": "REV-ORGANIC-001",
+      "reviewInfo": {
+        "name": "Marcel Fournier",
+        "email": "marcel.f@example.com",
+        "date": "2024-11-11"
+      },
+      "reviewContent": "Was searching for preservative-free options for our cafe. This fits the menu, and regulars love the balanced sweetness."
+    },
+    {
+      "productId": "SANITARY_TRAVEL_SET",
+      "reviewId": "REV-SAN-TRAVEL-002",
+      "reviewInfo": {
+        "name": "Grace Holloway",
+        "email": "grace.h@example.com",
+        "date": "2024-11-27"
+      },
+      "reviewContent": "### Handy weekend kit\n\nThe resealable pouch and compact wipes are perfect for cabin luggage. Added two sets to my go bag."
+    },
+    {
+      "productId": "SANITARY_STARTER_PACK",
+      "reviewId": "REV-SAN-START-002",
+      "reviewInfo": {
+        "name": "Aleena Rozario",
+        "email": "aleena.rozario@example.com",
+        "date": "2024-11-30"
+      },
+      "reviewContent": "Gifting this to new hires in our hostel welcome kit. Feedback has been positive and the packaging feels premium."
+    },
+    {
+      "productId": "MARMALADE_GRADE1",
+      "reviewId": "REV-MARM-ROOT-002",
+      "reviewInfo": {
+        "name": "Kendall Brooks",
+        "email": "kendall.brooks@example.com",
+        "date": "2024-11-18"
+      },
+      "reviewContent": "### Keeps shelves moving\n\nWe rotate seasonal pastries and this marmalade is the only spread that sells out every Saturday."
     }
   ]
 }

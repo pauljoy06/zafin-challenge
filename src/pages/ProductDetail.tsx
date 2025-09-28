@@ -1,10 +1,9 @@
 import { useMemo } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import ReactMarkdown from 'react-markdown'
 import { fetchProductDetail, type ProductDetail } from '../api/products'
 import { formatCurrency } from '../utils'
-import { Button, BackButton } from '../components'
+import { Button, BackButton, Markdown } from '../components'
 import './ProductDetail.css'
 
 function NotFound() {
@@ -18,6 +17,7 @@ function NotFound() {
 
 function ProductDetail() {
   const { productId } = useParams()
+  const navigate = useNavigate()
 
   const { data, isLoading, isError, error } = useQuery<ProductDetail | null>({
     queryKey: ['product-detail', productId],
@@ -67,14 +67,24 @@ function ProductDetail() {
             </p>
           </div>
         </div>
-        <Button variant="secondary" size="sm" disabled>
-          Reviews (coming soon)
+        <Button
+          variant="secondary"
+          size="sm"
+          onClick={() => {
+            if (productId) {
+              void navigate(`/products/${productId}/reviews`, {
+                state: { productName: title },
+              })
+            }
+          }}
+        >
+          View reviews
         </Button>
       </header>
 
       <section className="detail-body">
         <div className="detail-overview">
-          <ReactMarkdown>{data.overview}</ReactMarkdown>
+          <Markdown>{data.overview}</Markdown>
         </div>
 
         <aside className="detail-sidebar">

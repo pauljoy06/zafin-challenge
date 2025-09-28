@@ -1,0 +1,1 @@
+export { useProductReviews } from './useProductReviews'
