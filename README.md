@@ -9,15 +9,20 @@ Frontend assignment scaffolded with Vite (React + TypeScript). The app presents 
 
 ## Setup
 
-1. **Install dependencies**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/pauljoy06/zafin-challenge
+   cd zafin-challenge
+   ```
+2. **Install dependencies**
    ```bash
    npm install
    ```
-2. **Start the mock API** (runs on http://localhost:4000)
+3. **Start the mock API** (runs on http://localhost:4000)
    ```bash
    npm run mock:server
    ```
-3. **Start the Vite dev server** in another terminal (http://localhost:5173)
+4. **Start the Vite dev server** in another terminal (http://localhost:5173)
    ```bash
    npm run dev
    ```
