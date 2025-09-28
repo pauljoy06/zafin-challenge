@@ -1,4 +1,4 @@
-import ProductTree from '../components/ProductTree/ProductTree'
+import ProductTree from '../components/ProductTree'
 
 function ProductView() {
   return (
