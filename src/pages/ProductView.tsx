@@ -1,5 +1,11 @@
+import ProductTree from '../components/ProductTree/ProductTree'
+
 function ProductView() {
-  return <div className="product-view" />
+  return (
+    <section className="product-view">
+      <ProductTree />
+    </section>
+  )
 }
 
 export default ProductView

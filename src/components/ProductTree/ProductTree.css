@@ -1,0 +1,70 @@
+.product-tree {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.4rem;
+  color: var(--color-text);
+
+  thead {
+    background: rgba(13, 71, 161, 0.08);
+  }
+
+  th,
+  td {
+    padding: 0.8rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(13, 71, 161, 0.12);
+  }
+
+  .id {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: none;
+    background: transparent;
+    color: var(--color-primary-dark);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+
+  .toggle:hover {
+    transform: translateX(2px);
+  }
+
+  .toggle:focus-visible {
+    outline: 2px solid rgba(13, 71, 161, 0.35);
+    outline-offset: 2px;
+  }
+
+  .toggle-placeholder {
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .id-label {
+    min-width: 0;
+    word-break: break-word;
+  }
+}
+
+.state-banner {
+  padding: 2rem;
+  background: rgba(13, 71, 161, 0.08);
+  border-radius: 8px;
+  font-size: 1.4rem;
+}
+
+.state-row {
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: var(--color-primary-dark);
+  background: rgba(13, 71, 161, 0.05);
+}
