@@ -4,7 +4,7 @@ import { useQuery } from '@tanstack/react-query'
 import ReactMarkdown from 'react-markdown'
 import { fetchProductDetail, type ProductDetail } from '../api/products'
 import { formatCurrency } from '../utils'
-import { Button } from '../components'
+import { Button, BackButton } from '../components'
 import './ProductDetail.css'
 
 function NotFound() {
@@ -57,12 +57,15 @@ function ProductDetail() {
   return (
     <article className="product-detail">
       <header className="detail-header">
-        <div>
-          <h1>{title}</h1>
-          <p className="detail-meta">
-            <span className="detail-price">{formatCurrency(data.price)}</span>
-            <span>Last updated on {data.lastUpdated}</span>
-          </p>
+        <div className="detail-header-left">
+          <BackButton fallbackPath="/products" />
+          <div>
+            <h1>{title}</h1>
+            <p className="detail-meta">
+              <span className="detail-price">{formatCurrency(data.price)}</span>
+              <span>Last updated on {data.lastUpdated}</span>
+            </p>
+          </div>
         </div>
         <Button variant="secondary" size="sm" disabled>
           Reviews (coming soon)

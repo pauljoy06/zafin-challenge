@@ -1,6 +1,8 @@
 import { useQuery } from '@tanstack/react-query'
+import { useNavigate } from 'react-router-dom'
 import { fetchChildProducts, fetchRootProducts, type Product } from '../../api/products'
 import { TreeTable } from '..'
+import type { TreeTableColumn } from '../TreeTable/TreeTable'
 import './ProductTree.css'
 
 type ProductChildrenResult = {
@@ -10,6 +12,11 @@ type ProductChildrenResult = {
   isError?: boolean
   error?: unknown
 }
+
+const columns: TreeTableColumn<Product>[] = [
+  { header: 'Product ID', cell: (item: Product) => item.productId },
+  { header: 'Name', cell: (item: Product) => item.name },
+]
 
 function useProductChildren(product: Product, expanded: boolean): ProductChildrenResult {
   const query = useQuery<Product[]>({
@@ -27,22 +34,13 @@ function useProductChildren(product: Product, expanded: boolean): ProductChildre
   }
 }
 
-const columns = [
-  {
-    header: 'Product ID',
-    cell: (item: Product) => item.productId,
-  },
-  {
-    header: 'Name',
-    cell: (item: Product) => item.name,
-  },
-]
-
 function ProductTree() {
   const { data, isLoading, isError, error } = useQuery<Product[]>({
     queryKey: ['products', 'root'],
     queryFn: fetchRootProducts,
   })
+
+  const navigate = useNavigate()
 
   if (isLoading) {
     return <div className="state-banner">Loading products…</div>
@@ -62,6 +60,9 @@ function ProductTree() {
       data={data}
       getId={(product) => product.productId}
       useChildren={useProductChildren}
+      onRowClick={(product) => {
+        void navigate(`/products/${product.productId}`)
+      }}
       messages={{
         loadingChildren: 'Loading child products…',
         emptyChildren: 'No child products found.',

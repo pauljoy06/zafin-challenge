@@ -1,0 +1,14 @@
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border-radius: 999px;
+  background: rgba(13, 71, 161, 0.12);
+  color: var(--color-primary-dark);
+  padding: 0.7rem 1.2rem;
+  transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+  background: rgba(13, 71, 161, 0.2);
+}

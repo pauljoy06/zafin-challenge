@@ -1,7 +1,13 @@
 import { useMemo, useState } from 'react'
 import type { ReactNode } from 'react'
+import clsx from 'clsx'
 import { ChevronDown, ChevronRight } from 'lucide-react'
 import './TreeTable.css'
+
+type TreeTableColumn<T> = {
+  header: ReactNode
+  cell: (item: T) => ReactNode
+}
 
 type TreeChildrenResult<T> = {
   data?: T[]
@@ -12,11 +18,7 @@ type TreeChildrenResult<T> = {
 }
 
 type UseChildrenHook<T> = (item: T, expanded: boolean) => TreeChildrenResult<T>
-
-type TreeTableColumn<T> = {
-  header: ReactNode
-  cell: (item: T) => ReactNode
-}
+type OnRowClick<T> = (item: T) => void
 
 type TreeTableMessages = {
   loadingChildren?: string
@@ -31,6 +33,7 @@ type TreeTableProps<T> = {
   useChildren: UseChildrenHook<T>
   indentRem?: number
   messages?: TreeTableMessages
+  onRowClick?: OnRowClick<T>
 }
 
 type TreeTableRowProps<T> = {
@@ -41,6 +44,7 @@ type TreeTableRowProps<T> = {
   useChildren: UseChildrenHook<T>
   indentRem: number
   messages?: TreeTableMessages
+  onRowClick?: OnRowClick<T>
 }
 
 function TreeTableRow<T>({
@@ -51,6 +55,7 @@ function TreeTableRow<T>({
   useChildren,
   indentRem,
   messages,
+  onRowClick,
 }: TreeTableRowProps<T>) {
   const [expanded, setExpanded] = useState(false)
 
@@ -88,7 +93,16 @@ function TreeTableRow<T>({
     <>
       <tr>
         {columns.map((column, index) => {
-          if (index === 0) {
+          const isPrimary = index === 0
+          const handleCellClick =
+            onRowClick && isPrimary
+              ? () => {
+                  onRowClick(item)
+                }
+              : undefined
+          const labelClassName = clsx('cell-label', isPrimary && onRowClick && 'cell-label-action')
+
+          if (isPrimary) {
             return (
               <td key={index} className="primary-cell">
                 <span style={indentStyle}>
@@ -100,7 +114,9 @@ function TreeTableRow<T>({
                     <span className="toggle-placeholder" />
                   )}
                 </span>
-                <span className="cell-label">{column.cell(item)}</span>
+                <span className={labelClassName} onClick={handleCellClick}>
+                  {column.cell(item)}
+                </span>
               </td>
             )
           }
@@ -144,6 +160,7 @@ function TreeTableRow<T>({
             useChildren={useChildren}
             indentRem={indentRem}
             messages={messages}
+            onRowClick={onRowClick}
           />
         ))}
     </>
@@ -157,6 +174,7 @@ function TreeTable<T>({
   useChildren,
   indentRem = 1.6,
   messages,
+  onRowClick,
 }: TreeTableProps<T>) {
   return (
     <table className="tree-table">
@@ -180,6 +198,7 @@ function TreeTable<T>({
             useChildren={useChildren}
             indentRem={indentRem}
             messages={messages}
+            onRowClick={onRowClick}
           />
         ))}
       </tbody>
@@ -187,4 +206,5 @@ function TreeTable<T>({
   )
 }
 
+export type { TreeTableColumn }
 export default TreeTable

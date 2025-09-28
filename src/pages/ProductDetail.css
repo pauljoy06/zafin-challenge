@@ -11,6 +11,16 @@
     padding-bottom: 1.2rem;
     border-bottom: 1px solid rgba(13, 71, 161, 0.12);
 
+    .detail-header-left {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.2rem;
+
+      > button {
+        flex-shrink: 0;
+      }
+    }
+
     h1 {
       margin: 0;
       font-size: var(--font-size-2xl);
@@ -84,12 +94,13 @@
     }
   }
 
-  .detail-banner {
-    padding: 2.4rem;
-    background: rgba(13, 71, 161, 0.08);
-    border-radius: 12px;
-    display: grid;
-    gap: 0.8rem;
-    font-size: var(--font-size-md);
-  }
+}
+
+.detail-banner {
+  padding: 2.4rem;
+  background: rgba(13, 71, 161, 0.08);
+  border-radius: 12px;
+  display: grid;
+  gap: 0.8rem;
+  font-size: var(--font-size-md-plus);
 }

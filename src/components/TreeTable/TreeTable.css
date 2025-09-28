@@ -54,6 +54,18 @@
     min-width: 0;
     word-break: break-word;
   }
+
+  .cell-label-action {
+    cursor: pointer;
+    color: var(--color-primary);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .cell-label-action:hover {
+    text-decoration: underline;
+  }
 }
 
 .state-row {
