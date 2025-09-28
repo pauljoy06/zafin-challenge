@@ -80,4 +80,3 @@ The app exposes a three-part product experience: a lazy-loading product tree, a 
 - **Runtime schema validation** – Layer Zod (or similar) into the API helpers so the UI can guard against malformed or evolving backend payloads.
 - **Feature-based folders** – When the app grows, migrate to a `features/<domain>` structure to keep components, hooks, and API logic co-located.
 - **Testing strategy** – Introduce unit and integration tests (React Testing Library + MSW) to cover tree interactions, routing, and data fetching edge cases.
-- **Deployment readiness** – Replace json-server with a hosted mock or real API, add environment configuration, and wire CI for lint/build/test gates.
