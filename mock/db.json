@@ -150,5 +150,280 @@
       "name": "Premium Care Pack",
       "availableFrom": "2024-04-07"
     }
+  ],
+  "productDetails": [
+    {
+      "productId": "COLGATE",
+      "name": "Colgate Advanced Protection",
+      "overview": "## Why choose Colgate\n\n- Enamel-safe whitening formulated for daily use.\n- Cooling mint gel with anti-cavity fluoride.\n- Clinically proven reduction in plaque build-up.\n\n### Daily routine\n\n1. Brush twice a day with a soft-bristled brush.\n2. Limit acidic snacks between meals.\n3. Pair with Colgate Fresh Mint mouthwash for best results.",
+      "price": 4.99,
+      "categories": [
+        "Oral care",
+        "Whitening"
+      ],
+      "lastUpdated": "2024-12-20"
+    },
+    {
+      "productId": "TOOTHPASTE_STD",
+      "name": "Standard Toothpaste",
+      "overview": "A reliable fluoride toothpaste trusted by families. Contains a balanced mint flavor with low abrasivity for sensitive gums.",
+      "price": 3.49,
+      "categories": [
+        "Oral care"
+      ],
+      "lastUpdated": "2024-12-10"
+    },
+    {
+      "productId": "MARMALADE_GRADE1",
+      "name": "The Marmalade Company",
+      "overview": "Hand-crafted marmalade sourced from Seville oranges.\n\n- Slow-cooked batches\n- Zero artificial preservatives\n- Available in 450g jars",
+      "price": 6.25,
+      "categories": [
+        "Preserves",
+        "Breakfast"
+      ],
+      "lastUpdated": "2024-11-02"
+    },
+    {
+      "productId": "SANITARY_PREMIUM_CARE",
+      "name": "Premium Care Pack",
+      "overview": "A curated sanitary pack with organic cotton liners, night pads, and travel-sized wipes.",
+      "price": 12.75,
+      "categories": [
+        "Sanitary"
+      ],
+      "lastUpdated": "2024-12-05"
+    },
+    {
+      "productId": "SANITATORY_PRODUCTS",
+      "name": "Sanitary products",
+      "overview": "## Sanitary products\n\n- Originates from our flagship range.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 4.3,
+      "categories": [
+        "Legacy",
+        "Standard"
+      ],
+      "lastUpdated": "2024-12-25"
+    },
+    {
+      "productId": "KISSAN_ORANGE_MME_01",
+      "name": "Kissan Orange Fruity Fun",
+      "overview": "## Kissan Orange Fruity Fun\n\n- Originates from MARMALADE_GRADE1.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 4.7,
+      "categories": [
+        "Portfolio",
+        "Seasonal"
+      ],
+      "lastUpdated": "2024-12-22"
+    },
+    {
+      "productId": "HIMALAYA_ORALCARE",
+      "name": "Himalaya Herbal Fresh",
+      "overview": "## Himalaya Herbal Fresh\n\n- Originates from TOOTHPASTE_STD.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 5.5,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-12-16"
+    },
+    {
+      "productId": "PEPSODENT_SMILE_PLUS",
+      "name": "Pepsodent Smile+",
+      "overview": "## Pepsodent Smile+\n\n- Originates from TOOTHPASTE_STD.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 5.9,
+      "categories": [
+        "Portfolio",
+        "Seasonal"
+      ],
+      "lastUpdated": "2024-12-13"
+    },
+    {
+      "productId": "COLGATE_CHERRY_GEL",
+      "name": "Colgate Cherry Gel",
+      "overview": "## Colgate Cherry Gel\n\n- Originates from COLGATE.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 6.3,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-12-10"
+    },
+    {
+      "productId": "COLGATE_FRESH_MINT",
+      "name": "Colgate Fresh Mint",
+      "overview": "## Colgate Fresh Mint\n\n- Originates from COLGATE.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 6.7,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-12-07"
+    },
+    {
+      "productId": "SENSODYNE_GENTLE",
+      "name": "Sensodyne Gentle",
+      "overview": "## Sensodyne Gentle\n\n- Originates from TOOTHPASTE_STD.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 7.1,
+      "categories": [
+        "Portfolio",
+        "Seasonal"
+      ],
+      "lastUpdated": "2024-12-04"
+    },
+    {
+      "productId": "CLOSEUP_ICY_BLAST",
+      "name": "CloseUp Icy Blast",
+      "overview": "## CloseUp Icy Blast\n\n- Originates from TOOTHPASTE_STD.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 7.5,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-12-01"
+    },
+    {
+      "productId": "DABUR_RED_CLASSIC",
+      "name": "Dabur Red Classic",
+      "overview": "## Dabur Red Classic\n\n- Originates from TOOTHPASTE_STD.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 7.9,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-11-28"
+    },
+    {
+      "productId": "PATANJALI_DANT_KANTI",
+      "name": "Patanjali Dant Kanti",
+      "overview": "## Patanjali Dant Kanti\n\n- Originates from TOOTHPASTE_STD.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 8.3,
+      "categories": [
+        "Portfolio",
+        "Seasonal"
+      ],
+      "lastUpdated": "2024-11-25"
+    },
+    {
+      "productId": "ORALB_KIDS_BUBBLE",
+      "name": "Oral-B Kids Bubble",
+      "overview": "## Oral-B Kids Bubble\n\n- Originates from COLGATE.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 8.7,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-11-22"
+    },
+    {
+      "productId": "ORALB_PROCARE",
+      "name": "Oral-B ProCare",
+      "overview": "## Oral-B ProCare\n\n- Originates from COLGATE.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 9.1,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-11-19"
+    },
+    {
+      "productId": "MARMALADE_CITRUS_BURST",
+      "name": "Citrus Burst Marmalade",
+      "overview": "## Citrus Burst Marmalade\n\n- Originates from MARMALADE_GRADE1.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 9.5,
+      "categories": [
+        "Portfolio",
+        "Seasonal"
+      ],
+      "lastUpdated": "2024-11-16"
+    },
+    {
+      "productId": "MARMALADE_BERRY_SWIRL",
+      "name": "Berry Swirl Marmalade",
+      "overview": "## Berry Swirl Marmalade\n\n- Originates from MARMALADE_GRADE1.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 9.9,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-11-13"
+    },
+    {
+      "productId": "MARMALADE_SPICED_ORANGE",
+      "name": "Spiced Orange Marmalade",
+      "overview": "## Spiced Orange Marmalade\n\n- Originates from MARMALADE_GRADE1.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 10.3,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-11-10"
+    },
+    {
+      "productId": "MARMALADE_SUMMER_MIX",
+      "name": "Summer Mix Marmalade",
+      "overview": "## Summer Mix Marmalade\n\n- Originates from MARMALADE_GRADE1.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 10.7,
+      "categories": [
+        "Portfolio",
+        "Seasonal"
+      ],
+      "lastUpdated": "2024-11-07"
+    },
+    {
+      "productId": "PRESERVED_FOOD",
+      "name": "Preserved foods",
+      "overview": "## Preserved foods\n\n- Originates from our flagship range.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 11.1,
+      "categories": [
+        "Legacy",
+        "Standard"
+      ],
+      "lastUpdated": "2024-11-04"
+    },
+    {
+      "productId": "PRESERVED_GOURMET",
+      "name": "Gourmet Preserves",
+      "overview": "## Gourmet Preserves\n\n- Originates from PRESERVED_FOOD.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 11.5,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-11-01"
+    },
+    {
+      "productId": "PRESERVED_ORGANIC",
+      "name": "Organic Preserves",
+      "overview": "## Organic Preserves\n\n- Originates from PRESERVED_FOOD.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 11.9,
+      "categories": [
+        "Portfolio",
+        "Seasonal"
+      ],
+      "lastUpdated": "2024-10-29"
+    },
+    {
+      "productId": "SANITARY_STARTER_PACK",
+      "name": "Sanitary Starter Pack",
+      "overview": "## Sanitary Starter Pack\n\n- Originates from SANITATORY_PRODUCTS.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 12.3,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-10-26"
+    },
+    {
+      "productId": "SANITARY_TRAVEL_SET",
+      "name": "Sanitary Travel Set",
+      "overview": "## Sanitary Travel Set\n\n- Originates from SANITATORY_PRODUCTS.\n- Crafted with consistent quality and tested for customer satisfaction.\n- Suitable for daily use and aligns with brand guidelines.\n\n### Highlights\n- Long shelf life\n- Customer-approved taste and feel\n- Available across major distributors",
+      "price": 12.7,
+      "categories": [
+        "Portfolio",
+        "Standard"
+      ],
+      "lastUpdated": "2024-10-23"
+    }
   ]
 }
