@@ -1,7 +1,7 @@
 .product-tree {
   width: 100%;
   border-collapse: collapse;
-  font-size: 1.4rem;
+  font-size: var(--font-size-md);
   color: var(--color-text);
 
   thead {
@@ -59,12 +59,12 @@
   padding: 2rem;
   background: rgba(13, 71, 161, 0.08);
   border-radius: 8px;
-  font-size: 1.4rem;
+  font-size: var(--font-size-md);
 }
 
 .state-row {
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: var(--font-size-sm);
   color: var(--color-primary-dark);
   background: rgba(13, 71, 161, 0.05);
 }

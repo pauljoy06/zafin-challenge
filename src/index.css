@@ -3,6 +3,16 @@ html {
 }
 
 :root {
+  --font-size-xxs: 1rem;
+  --font-size-xs: 1.2rem;
+  --font-size-sm: 1.3rem;
+  --font-size-md: 1.4rem;
+  --font-size-md-plus: 1.52rem;
+  --font-size-lg: 1.6rem;
+  --font-size-xl: 2rem;
+  --font-size-2xl: 2.4rem;
+  --font-size-3xl: 2.6rem;
+
   font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial,
     sans-serif;
   line-height: 1.5;
